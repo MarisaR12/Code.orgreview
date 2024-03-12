@@ -1,0 +1,323 @@
+html,body{
+  height: 100%;
+  width:100%;
+}
+*{
+  box-sizing:border-box;
+}
+h1{
+font-size:0.8em;
+  text-align: right;
+}
+
+body{
+  background-color:  #c26bab;
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  height:1400px;
+}
+
+#logo{
+  width:75px;
+  z-index:1;
+  position:absolute;
+  right:1%;
+  top:158px;
+  
+  
+}
+.banner{
+  border: 3px solid #ffffff;
+  box-shadow: 1px 3px 30px 1px #ffffff;
+  color: white;
+  font-family: 'Comic Sans MS', cursive;
+  height:230px;
+  margin:15px;
+  padding: 5px;
+}
+
+.menu{
+  margin: 10px;
+  padding: 10px;
+overflow: hidden; /* if I write too much it hides it and doesn't go off the page*/ 
+  position: absolute;
+  left:20px;
+  top:20px;
+  font-size: 2em;
+  text-align:left;
+  z-index:1;
+}
+.menu a{
+  background-color: #e77ecb; 
+  color:white;
+  padding:2px;
+  font-size:0.5em;
+  display:none;
+}
+.menu:hover a{ /*makes the hyperlinks disppaer*/
+  
+  display:block;
+}
+.menu a:hover{/* make a dropdown menu when hover over menu of all the hyperlinks along with when you hover over one of the options the background color and color of the text white and purple*/
+  color: #e77ecb;
+  background-color: white;
+}
+
+.container{
+  border: 2px solid #ffffff;
+  box-shadow: 1px 3px 30px 1px #ffffff;
+  color: #000000;
+  background-image: repeating-linear-gradient(#bc71a8,#c75caa, #653458);
+  height:2500px;
+ margin: 15px;
+  overflow:hidden;
+  text-align: center;
+  
+}
+.wave{
+  border: 1px dashed black;
+  background-image: repeating-radial-gradient(#e8e8e8,#ffe0f9,#ffa3eb);
+  height:50px;
+  width: 80%;
+  position: relative;
+  left:10%;
+  transition: height 4s;
+  display:block;
+  overflow:hidden;
+}
+
+#/*Id gets hashtag*/u1{
+  transition: height 4s;
+}
+#u1:hover{
+  height:1500px;
+  z-index: 1;
+}
+
+#u2{
+  transition: height 4s;
+}
+
+#u2:hover{
+  height:450px;
+  z-index:1;
+}
+
+#u3{
+  transition: height 4s;
+}
+
+#u3:hover{
+  height:450px;
+  z-index:1;
+}
+
+#u4{
+  transition: height 4s;
+}
+#u4:hover{
+  height:450px;
+  z-index:1;
+}
+
+#left{
+  position: absolute;
+  left: 1px;
+  margin:2px;
+  padding:2px;
+  border:1px solid white;
+  width:49.5%;
+  height:950px;
+}
+
+#right{
+  position: absolute;
+  right: 1px;
+  margin:2px;
+  padding:2px;
+  border:1px solid white;
+  width:49.5%;
+  height:1050px;
+}
+
+#top{
+  position:relative ;
+  top:5px;
+  bottom:5px;
+  left:1px;
+  right:1px;
+  border:1px solid white;
+  padding:2px;
+  margin: 2px;
+  width:99%;
+  height:45px;
+}
+#dn{
+
+}
+
+#prj{
+ 
+}
+
+b{
+  font-size: 1.8em;
+}
+
+#inline{
+  width: 535px;
+  float: left;
+}
+
+#external{
+  height: 100px;
+  width:350px;
+  float: left;
+}
+
+#text{
+  font-size: 1.1em;
+  text-align: left; 
+  font-family: Akatab;
+}
+#inhead{
+  float: Left;
+  height:150px;
+  width: 400;
+}
+
+#q1{
+  transition: height 4s;
+  
+}
+#q1:hover{
+  height:650px;
+  z-index:1;
+}
+
+#q2{
+  transition: height 4s;
+}
+#q2:hover{
+  height:615px;
+  z-index:1;
+}
+
+#q3{
+  transition: height 4s;
+}
+#q3:hover{
+  height:900px;
+  z-index:1;
+}
+
+#q4{
+  transition: height 4s;
+}
+#q4:hover{
+  height:1350px;
+  z-index:1;
+}
+
+#q5{
+  transition: height 4s;
+}
+#q5:hover{
+  height:1240px;
+  z-index:1;
+}
+
+#q6{
+  transition: height 4s;
+}
+#q6:hover{
+  height:1500px;
+  z-index:1;
+}
+
+#q7{
+  transition: height 4s;
+}
+#q7:hover{
+  height:950px;
+  z-index:1;
+}
+
+#q8{
+  transition: height 4s;
+}
+#q8:hover{
+  height:700px;
+  z-index:1;
+}
+
+#q9{
+  transition: height 4s;
+}
+#q9:hover{
+  height:700px;
+  z-index:1;
+}
+
+#q10{
+  transition: height 4s;
+}
+#q10:hover{
+  height:450px;
+  z-index:1;
+}
+
+#q11{
+  transition: height 4s;
+}
+#q11:hover{
+  height:600px;
+  z-index:1;
+}
+
+#q12{
+  transition: height 4s;
+}
+#q12:hover{
+  height:555px;
+  z-index:1;
+}
+
+.wave1{
+  border: 1px dashed black;
+  background-image: repeating-radial-gradient(#e8e8e8,#ffe0f9,#ffa3eb);
+  height:75px;
+  width: 100%;
+  position: relative;
+  left:0%;
+  top: 5px;
+  transition: height 4s;
+  display:block;
+  overflow:hidden;
+}
+
+#answer {
+  background-color:#000000ff;
+}
+
+#answer:hover{
+  background-color:#ffffffff;
+}
+
+button{
+  background-color: white;
+  transition-duration: 0.4s;
+  border-color: white;
+  border:1px;
+  height:125px;
+  width:200px;
+  font-size:0.9em;
+  margin: 1px;
+}
+
+button:hover {
+  background-color: #ffd6fa; /* Green */
+  color: black;
+ 
+}
